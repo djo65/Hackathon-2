@@ -1,11 +1,14 @@
+import { Outlet } from "react-router-dom";
+
 import './App.css'
-import About from "./pages/About"
 
 function App() {
 
   return (
     <>
-    <About />
+        <main className="main-container">
+        <Outlet />
+      </main>
     </>
   )
 }

@@ -1,0 +1,30 @@
+.card-epoque{
+    width: 300px;
+    margin: 20px;
+  
+    a {
+        text-decoration: none;
+        color: burlywood; 
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .card-img-epoque{
+            width: 300px;
+            aspect-ratio: 50 / 30;
+        }
+        .card-titre-epoque{
+            font-size: 26px;
+            margin: 10px;
+        }
+        .card-date-epoque{
+
+            font-size: 26px;
+            margin: 10px;
+        }
+
+        }       
+        a:hover{
+            color: rgb(255, 255, 255); 
+        }
+}
