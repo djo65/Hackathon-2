@@ -1,0 +1,37 @@
+/* hr {
+  width: 100vw;
+} */
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  width: 15%;
+}
+
+.AllOfThings {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 25vw;
+}
+
+.logoX {
+  width: 5%;
+}
+
+.logoInsta {
+  width: 5%;
+}
+
+.logoLin {
+  width: 5%;
+}
+
+.logoYt {
+  width: 5%;
+}
+
+.picture {
+  display: flex;
+  justify-content: flex-end;
+}
