@@ -1,3 +1,5 @@
+import { Outlet } from "react-router-dom";
+
 import './App.css'
 
 function App() {
@@ -5,7 +7,9 @@ function App() {
 
   return (
     <>
-  
+        <main className="main-container">
+        <Outlet />
+      </main>
     </>
   )
 }
