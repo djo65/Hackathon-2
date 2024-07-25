@@ -1,0 +1,10 @@
+.about-container {
+  height: 100%;
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    margin-left: 2vw;
+  }
+}

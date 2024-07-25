@@ -1,0 +1,17 @@
+.box0 {
+  padding-left: 2vw;
+
+  .box1 {
+    display: flex;
+    height: 20vh;
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 1.5vh;
+    box-shadow: 3px -2px 6px 0px #735f5f;
+    /* border-spacing: 5px; */
+  }
+  img {
+    border-radius: 50%;
+  }
+}
