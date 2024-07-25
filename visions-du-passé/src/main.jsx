@@ -13,10 +13,10 @@ import App from "./App.jsx";
 
 import "./index.css";
 
-const getData = (url) =>
-  fetch(url)
-    .then((result) => result.json())
-    .then((data) => data);
+// const getData = (url) =>
+//   fetch(url)
+//     .then((result) => result.json())
+//     .then((data) => data);
 
 const router = createBrowserRouter([
   {
