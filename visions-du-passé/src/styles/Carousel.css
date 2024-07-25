@@ -1,0 +1,27 @@
+/* Carousel.css */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Ajustez la largeur du carrousel selon vos besoins */
+  height: auto; /* Ajustez la hauteur selon vos besoins */
+}
+
+.carousel-wrapper {
+  display: flex;
+}
+
+.carousel-slides {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.carousel-slide {
+  min-width: 100%; /* Chaque diapositive prend toute la largeur du conteneur */
+  box-sizing: border-box;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

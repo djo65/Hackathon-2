@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: grey;
+}
+
+.container {
+  position: absolute;
+  top: 8%;
+  right: 06%;
+  background-color: white;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 170vh;
+  height: 20vh;
+}
+
+.titre {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  margin: 0;
+  font-size: 48px;
+  color: black;
+}
+
+.photorev {
+  position: absolute;
+  top: 50%;
+  width: 250px;
+}
+
+.egypte {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 260px;
+}
