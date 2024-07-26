@@ -8,11 +8,10 @@ function Footer() {
   return (
     <>
       <div className="AllOfThings">
-        {/* <hr /> */}
         <div className="copyright">
           <p>© Copyright Wild Code School 2024</p>
         </div>
-        <div className="picture">
+        <div className="pictures">
           <img className="logoX" src={logoX} alt="logoX" />
           <img className="logoInsta" src={logoInsta} alt="logoInsta" />
           <img className="logoYt" src={logoYt} alt="logoYt" />
