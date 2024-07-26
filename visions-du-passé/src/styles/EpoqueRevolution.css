@@ -1,0 +1,103 @@
+.background {
+  position: relative;
+  height: 100vh; /* Assurez-vous que l'arrière-plan occupe toute la hauteur de la vue */
+  padding: 20px;
+}
+
+.image-container {
+  position: absolute;
+  display: inline-block;
+  margin: 20px;
+}
+
+.image-container img {
+  width: 380px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.image-container .anecdote,
+.image-container .anecodotee {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 400px; /* Positionne l'anecdote à droite de l'image */
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.image-container:hover .anecdote,
+.image-container:hover .anecodotee {
+  display: block;
+}
+
+/* Positionnement des conteneurs d'images */
+.photorev-container {
+  top: 0;
+  left: 0;
+}
+
+.photorevv-container {
+  bottom: 0;
+  right: 0;
+}
+
+.bouton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.bouton:hover {
+  background-color: #0056b3;
+}
+
+.bouton-container {
+  text-align: center;
+}
+
+.current-anecdote-container {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current-anecdote {
+  font-size: 14px;
+  text-align: left;
+}
+
+.titre {
+  position: absolute;
+  right: 60%;
+  left: 1500%;
+}
+
+.audio {
+  position: absolute;
+  left: 300%;
+}
+
+.photorevv-container {
+  position: absolute;
+  left: 1800%;
+  top: 60%;
+  bottom: 0%;
+}
