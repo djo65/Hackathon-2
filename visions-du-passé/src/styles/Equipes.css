@@ -1,17 +1,36 @@
 .box0 {
-  padding-left: 2vw;
+  display: flex;
+  justify-content: center;
 
   .box1 {
     display: flex;
-    height: 20vh;
-    width: 60vw;
+    align-items: center;
+    height: 13vh;
+    width: 46vw;
     border: 1px solid black;
     border-radius: 8px;
     margin-top: 1.5vh;
-    box-shadow: 3px -2px 6px 0px #735f5f;
+    box-shadow: 3px -2px 6px 0px #bab7b7;
+    color: #242424;
+    background-color: rgb(213, 211, 211);
     /* border-spacing: 5px; */
+  }
+  ul {
+    list-style-type: none;
   }
   img {
     border-radius: 50%;
+    height: 140px;
+    aspect-ratio: 1/1;
+  }
+  h1 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    margin-left: 25px;
+    font-size: 27px;
+    margin-top: -29px;
   }
 }

@@ -1,6 +1,11 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { useState } from "react"
 import CardEpoque from '../components/CardEpoque'
+import NavBar from "../components/NavBar"
+import MusicButton from "../components/MusicButton";
+import future from "../assets/music/future.mp3"
 import '../styles/Home.css'
+import Footer from "./Footer";
 
  const epoqueData = [
 	{
@@ -42,12 +47,26 @@ import '../styles/Home.css'
 ]
 
 function Home() {
+	const [autoPlay, setAutoPlay] = useState(true);
   return (
-		<div className='home-container'>
+		<div id="homeContainer">
+
+				<NavBar />
+		<div className='home-content'>
+			<MusicButton
+	audioSrc={future}
+	autoPlay={autoPlay}
+	setAutoPlay={setAutoPlay}
+	classN="poulet"
+			/>
 			{epoqueData.map(epoque => (
 					<CardEpoque key={epoque.id} data={epoque}/>
 			))}
 		</div>
+		<footer className="bas">
+			<Footer />
+		</footer>
+	</div>
 	)
 }
 
