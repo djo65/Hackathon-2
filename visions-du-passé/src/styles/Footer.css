@@ -1,37 +1,39 @@
-/* hr {
-  width: 100vw;
-} */
-
-.copyright {
-  display: flex;
-  justify-content: flex-start;
-  width: 15%;
-}
-
 .AllOfThings {
   display: flex;
-  justify-content: center;
-  width: 100vw;
-  height: 25vw;
-}
-
-.logoX {
-  width: 5%;
-}
-
-.logoInsta {
-  width: 5%;
-}
-
-.logoLin {
-  width: 5%;
-}
-
-.logoYt {
-  width: 5%;
-}
-
-.picture {
-  display: flex;
   justify-content: flex-end;
+  width: 100vw;
+  height: 6vh;
+  align-items: flex-end;
+
+  .copyright {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .pictures {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+
+    img {
+      padding-right: 15px;
+      cursor: pointer;
+    }
+
+    .logoX {
+      width: 5%;
+    }
+
+    .logoInsta {
+      width: 5%;
+    }
+
+    .logoLin {
+      width: 5%;
+    }
+
+    .logoYt {
+      width: 5%;
+    }
+  }
 }

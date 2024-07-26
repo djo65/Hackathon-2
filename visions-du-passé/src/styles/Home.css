@@ -1,9 +1,24 @@
-.home-container{
-  
-  width: 100vw;
+#homeContainer {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 100vh;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 90vh;
+
+  .home-content {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .poulet {
+    position: absolute;
+    margin-top: -20px;
+  }
+}
+
+.bas {
+  height: 20px;
 }
