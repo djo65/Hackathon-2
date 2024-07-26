@@ -1,0 +1,29 @@
+.header {
+  width: 100vw;
+  .Title {
+    display: flex;
+    justify-content: center;
+  }
+  .Bg-Img {
+    aspect-ratio: 50 / 20;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.sphinxForm {
+  width: 20%;
+  height: 20%;
+}
+
+.pyramideForm {
+  width: 20%;
+  height: 20%;
+}
+
+.steleForm {
+  width: 20%;
+  height: 15%;
+}
